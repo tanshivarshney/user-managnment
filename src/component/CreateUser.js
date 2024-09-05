@@ -57,6 +57,7 @@ const CreateUser = ({ addUser, updateUser, closeModal, selectedUser }) => {
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Name:</label>
+          
           <input
             type="text"
             value={name}
